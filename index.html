@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container-content">
+            <div class="text-entry">
+                <h2>Text Analyzer</h2>
+                <textarea rows="7" placeholder="Type your text here...."></textarea>
+                <button type="button" id="process-btn" >Process Text</button>
+            </div>
+            <div class="text-info">
+                <h2>Text Analysis</h2>
+                <ul class="list">
+                    <li>
+                        <p>Character Count:</p>
+                        <span id="char"></span>
+                    </li>
+                    <li>
+                        <p>Word Count:</p>
+                        <span id="word"></span>
+                    </li>
+                    <li>
+                        <p>Spaces:</p>
+                        <span id="spaces"></span>
+                    </li>
+                    <li>
+                        <p>Sentences:</p>
+                        <span id="sentence"></span>
+                    </li>
+                    <li>
+                        <p>punctuations:</p>
+                        <span id="punctuation"></span>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="text.js"></script>
+
+</body>
+</html>
